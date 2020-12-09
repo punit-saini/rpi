@@ -1,0 +1,554 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&family=Raleway:ital@1&family=Roboto:wght@300;400&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+i {
+    margin-right: 3px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+/* header */
+
+header {
+    min-height: 100vh;
+    text-align: center;
+}
+
+.top-info a {
+    text-decoration: none;
+    color: white;
+}
+
+header .top-info {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    height: 18vh;
+    font-size: 14px;
+    background-color: #25437a;
+    line-height: 1.5rem;
+    letter-spacing: .02rem;
+    position: relative;
+}
+
+.social-icons {
+    display: flex;
+    position: absolute;
+    bottom: 7px;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+.social-icons img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+/* header content */
+
+.main-header {
+    margin-top: 20px;
+}
+
+.header-content {
+    width: 95%;
+    margin: auto;
+}
+
+.main-header .logo img {
+    max-width: 130px;
+}
+
+.header-content p {
+    color: #3a3a3a;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px auto;
+}
+
+.header-content h1 {
+    color: #e91010;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: .05rem;
+}
+
+.main-header .header-content .highlight-para {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    width: 97%;
+    margin-bottom: 30px;
+}
+
+.highlight-red {
+    color: #ff0000;
+}
+
+.highlight-blue {
+    color: #5982b2;
+}
+
+.main-header a {
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-bottom: 50px;
+    display: block;
+    width: max-content;
+    margin: auto;
+}
+
+.apply-now-btn {
+    padding: 15px 30px;
+    background-color: #5bc0de;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.contact-us-btn {
+    padding: 15px 30px;
+    background-color: #f0ad4e;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+nav-btns {
+    display: block;
+    margin-top: 20px;
+}
+
+.addspace {
+    height: 20px;
+}
+
+
+
+/* Navigation Menu */
+
+.active {
+    display: none;
+}
+
+.nav {
+    color: white;
+    width: 100%;
+    background-color: #1e457c;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.toggle-button {
+    height: 2.5rem;
+    font-size: 25px;
+    text-align: center;
+}
+
+.toggle-button i {
+    margin-top: 8px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 17px;
+}
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid white;
+    margin: 12px 0px;
+}
+
+.last-line {
+    border-color: transparent;
+    margin-bottom: 3px;
+}
+
+
+/* Main > Hero Image */
+
+
+.hero-image {
+    height: 10rem;
+    background: url('./banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Main > Call to Action / Apply Now */
+
+.main-cta {
+    text-align: center;
+    background-color: #4cadc9;
+    padding: 50px 5px;
+}
+
+.main-cta h2 {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.main-cta h4 {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.main-cta a {
+    text-decoration: none;
+    padding: 13px 19px;
+    border: 1px solid white;
+    color: white;
+    background-color: #4cadc9;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+
+/*  Floating text / marquee tag */
+
+.floating-text {
+    background-color: #dd3333;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.floating-text p {
+    padding-left: 5px;
+}
+
+.floating-text marquee {
+    width: 60%;
+    height: 30px;
+    background-color: white;
+    color: #3a3a3a;
+    padding-top: 5px;
+    font-size: 13px;
+    margin: 0px 5px;
+}
+
+
+/* Welcome Section and Why Us*/
+
+
+.welcome {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.welcome h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.welcome h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #25437a;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.welcome p,
+.why-us p {
+    word-spacing: 3px;
+    letter-spacing: .02rem;
+    line-height: 1.5rem;
+    color: black;
+    text-align: justify;
+    font-size: 13.68px;
+}
+
+
+/* Events Section and Why Us*/
+
+.events,
+.why-us {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.short-line {
+    font-weight: 400;
+    width: 20%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+}
+
+.events img {
+    width: 220px;
+    margin: 30px 0px;
+}
+
+
+/* Affiliation and Accreditation */
+
+.aff {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.aff .special-line {
+    margin: auto;
+    width: 20%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+}
+
+.aff img {
+    width: 200px;
+    max-height: 100px;
+    margin: 20px;
+}
+
+.aff .aff-content {
+    background-color: #1d457b;
+    font-size: 18.24px;
+    padding: 12px 18px;
+    color: white;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 22px;
+}
+
+
+/* Contact Form */
+
+
+input {
+    padding: 6px 10px;
+    height: 2.3rem;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+}
+
+.contact-form h2 {
+    font-size: 25px;
+}
+
+.contact-form label {
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+}
+
+.one-liner {
+    display: flex;
+}
+
+.one-liner input {
+    width: 90%;
+}
+
+textarea {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    font-size: 16px;
+    padding: 6px 10px;
+    height: 8rem;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 10px 15px;
+    background-clip: #eeeeee;
+    border: 1px solid lightgray;
+}
+
+.map iframe {
+    width: 100%;
+    margin: 30px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer {
+    text-align: left;
+    background-color: #1e457c;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white
+}
+
+footer .logo img {
+    width: 100px;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+.contact-info {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.contact-info a {
+    margin-bottom: 15px;
+    font-weight: 500;
+    letter-spacing: .08rem;
+}
+
+footer i {
+    margin-right: 10px;
+}
+
+.footer-content {
+    font-family: 'Roboto', sans-serif;
+    padding: 12px;
+    margin: 15px auto;
+}
+
+.footer-content h4 {
+    font-size: 19px;
+    letter-spacing: .06rem;
+    margin-bottom: 20px;
+}
+
+.footer-content p {
+    letter-spacing: .03rem;
+    line-height: 1.3rem;
+    font-size: 13.68px;
+    font-weight: 300;
+    word-spacing: 4px;
+}
+
+.footer-nav h4 {
+    padding-left: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+}
+
+footer .toggle-button {
+    text-align: left;
+    margin-left: 12px;
+    margin-bottom: 10px;
+}
+
+.footer-nav {
+    margin-bottom: 5px;
+}
+
+
+.copyright {
+    background-color: #000;
+    min-height: 5rem;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.copyright a {
+    text-decoration: underline;
+    font-family: 'Raleway', sans-serif;
+    color: lightgray;
+}
