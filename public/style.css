@@ -1,0 +1,1474 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&family=Raleway:ital@1&family=Roboto:wght@300;400&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+i {
+    margin-right: 3px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+/* header */
+
+header {
+    min-height: 100vh;
+    text-align: center;
+    width: 100%;
+}
+
+.top-info a {
+    text-decoration: none;
+    color: white;
+}
+
+header .top-info div p {
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+header .top-info {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    height: 6rem;
+    font-size: 14px;
+    background-color: #25437a;
+    line-height: 1.5rem;
+    letter-spacing: .02rem;
+    position: relative;
+}
+
+.social-icons {
+    display: flex;
+    bottom: 7px;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+.social-icons img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+/* header content */
+
+.main-header {
+    margin-top: 10px;
+}
+
+.header-content {
+    width: 95%;
+    margin: auto;
+}
+
+.main-header .logo img {
+    max-width: 130px;
+}
+
+.header-content p {
+    color: #3a3a3a;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin: 8px auto;
+}
+
+.header-content h1 {
+    color: #e91010;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: .05rem;
+}
+
+.main-header .header-content .highlight-para {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    width: 97%;
+    margin-bottom: 25px;
+}
+
+.highlight-red {
+    color: #ff0000;
+}
+
+.highlight-blue {
+    color: #5982b2;
+}
+
+.main-header a {
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-bottom: 30px;
+    display: block;
+    width: max-content;
+    margin: auto;
+}
+
+.apply-now-btn {
+    padding: 15px 30px;
+    background-color: #5bc0de;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: .3s ease-out all;
+}
+
+.apply-now-btn:hover {
+    background-color: white;
+    color: #5bc0de;
+    border: 1px solid #5bc0de;
+}
+
+.contact-us-btn {
+    padding: 15px 30px;
+    background-color: #f0ad4e;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-top: 20px;
+    transition: .3s ease-out all;
+}
+
+.contact-us-btn:hover {
+    background-color: white;
+    color: #f0ad4e;
+    border: 1px solid #f0ad4e
+}
+
+/* nav-btns {
+    display: block;
+    margin-top: 20px;
+} */
+
+.addspace {
+    height: 25px;
+}
+
+
+
+/* Navigation Menu */
+
+.active {
+    display: none;
+}
+
+.nav {
+    color: white;
+    width: 100%;
+    background-color: #1e457c;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.toggle-button {
+    height: 2.5rem;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.toggle-button i {
+    margin-top: 8px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 17px;
+}
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid white;
+    margin: 12px 0px;
+}
+
+.last-line {
+    border-color: transparent;
+    margin-bottom: 3px;
+}
+
+
+/* Main > Hero Image */
+
+
+.hero-image {
+    height: 10rem;
+    background: url('./banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-image img {
+    width: 200px;
+}
+
+/* Main > Call to Action / Apply Now */
+
+.main-cta {
+    text-align: center;
+    background-color: #4cadc9;
+    padding: 50px 5px;
+}
+
+.main-cta h2 {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.main-cta h4 {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.main-cta a {
+    text-decoration: none;
+    padding: 13px 19px;
+    border: 1px solid white;
+    color: white;
+    background-color: #4cadc9;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    border-radius: 7px;
+    transition: .3s ease-in all;
+}
+
+.main-cta a:hover {
+    background-color: white;
+    color: #5bc0de;
+}
+
+
+/*  Floating text / marquee tag */
+
+.floating-text {
+    background-color: #dd3333;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.floating-text p {
+    padding-left: 5px;
+}
+
+.floating-text marquee {
+    width: 60%;
+    height: 30px;
+    background-color: white;
+    color: #3a3a3a;
+    padding-top: 5px;
+    font-size: 13px;
+    margin: 0px 5px;
+}
+
+
+/* Welcome Section and Why Us*/
+
+
+.welcome {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.welcome h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.welcome h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #25437a;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.welcome p,
+.why-us p {
+    word-spacing: 3px;
+    letter-spacing: .02rem;
+    line-height: 1.5rem;
+    color: black;
+    text-align: justify;
+    font-size: 13.68px;
+}
+
+
+/* Events Section and Why Us*/
+
+.events,
+.why-us {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.short-line {
+    font-weight: 400;
+    width: 20%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+}
+
+.why-us img {
+    width: 220px;
+    margin: 30px auto;
+}
+
+
+/* Affiliation and Accreditation */
+
+.aff {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.aff .special-line {
+    margin: auto;
+    width: 20%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+}
+
+.aff img {
+    width: 200px;
+    max-height: 100px;
+    margin: 20px;
+}
+
+.aff .aff-content {
+    background-color: #1d457b;
+    font-size: 18.24px;
+    padding: 12px 18px;
+    color: white;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 22px;
+}
+
+
+/* Contact Form */
+
+
+input {
+    padding: 6px 10px;
+    height: 2.3rem;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+}
+
+.contact-form h2 {
+    font-size: 25px;
+}
+
+.contact-form label {
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+}
+
+.one-liner {
+    display: flex;
+    align-items: flex-end;
+}
+
+.one-liner input {
+    width: 90%;
+}
+
+textarea {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    font-size: 16px;
+    padding: 6px 10px;
+    height: 8rem;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 10px 15px;
+    background-clip: #eeeeee;
+    border: 1px solid lightgray;
+}
+
+.map {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.map iframe {
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+/* Footer */
+
+footer {
+    text-align: left;
+    background-color: #1e457c;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white
+}
+
+footer .logo img {
+    width: 100px;
+    margin: 30px;
+    border-radius: 50px;
+}
+
+.contact-info {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.contact-info a {
+    margin-bottom: 15px;
+    font-weight: 500;
+    letter-spacing: .08rem;
+}
+
+footer i {
+    margin-right: 10px;
+}
+
+.footer-content {
+    font-family: 'Roboto', sans-serif;
+    padding: 12px;
+    margin: 15px auto;
+}
+
+.footer-content h4 {
+    font-size: 19px;
+    letter-spacing: .06rem;
+    margin-bottom: 20px;
+}
+
+.footer-content p {
+    letter-spacing: .03rem;
+    line-height: 1.3rem;
+    font-size: 13.68px;
+    font-weight: 300;
+    word-spacing: 4px;
+}
+
+.footer-nav h4 {
+    padding-left: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+}
+
+footer .toggle-button {
+    text-align: left;
+    margin-left: 12px;
+    margin-bottom: 10px;
+}
+
+.footer-nav {
+    justify-self: flex-end;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.footer-nav ul p {
+    display: none;
+}
+
+.footer-nav ul li a {
+    color: white;
+    transition: .3s ease-out all;
+}
+
+.footer-nav ul li {
+    margin-bottom: 15px;
+}
+
+.footer-nav ul li a:hover {
+    width: 100%;
+    background-color: white;
+    color: #1e457c;
+}
+
+
+.copyright {
+    background-color: #000;
+    min-height: 5rem;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.copyright a {
+    text-decoration: underline;
+    font-family: 'Raleway', sans-serif;
+    color: lightgray;
+}
+
+.contact-form button {
+    cursor: pointer;
+}
+
+
+/* //////////////// Admission form page */
+
+#admission-form input[type="text"],
+#admission-form input[type="number"] {
+    height: 34px;
+}
+
+#father-name {
+    width: 45%;
+}
+
+#mother-name {
+    width: 45%;
+}
+
+#centre-code,
+#programme-code {
+    width: 30%;
+    margin-left: 10px;
+}
+
+#study-centre,
+#programme-name {
+    width: 65%;
+}
+
+#city-div,
+#state-div {
+    width: 30%;
+}
+
+#student-name {
+    width: 59%;
+}
+
+.gender-option {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 10px auto;
+}
+
+.gender-option label {
+    padding-right: 10px;
+}
+
+.gender-option select {
+    justify-self: flex-end;
+    font-family: 'Montserrrat', sans-serif;
+    font-size: 14px;
+    height: 27px;
+    margin-left: 20px;
+}
+
+
+.add-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.add-box div {
+    width: 48%;
+    margin-right: 30px;
+}
+
+
+.address div input {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.address label {
+    margin-bottom: 0px;
+}
+
+.address #address-box {
+    width: 100%;
+}
+
+.address div label {
+    font-size: 12px;
+    color: rgb(77, 76, 76);
+}
+
+
+#admission-form {
+    width: 90%;
+    margin: 40px auto;
+}
+
+#dob {
+    max-width: max-content;
+}
+
+
+/* \\\\\\\\\\\\\\\\\\\\ Contact us page */
+
+
+
+.contact-form {
+    margin-top: 40px;
+}
+
+
+/* Courses Page */
+
+table {
+    width: 90%;
+    margin: 40px auto;
+    padding: 10px;
+}
+
+thead th {
+    background-color: #d9edf7;
+    font-family: 'Roboto';
+    color: #3a3a3a;
+    font-size: 13.68px;
+    padding: 8px 20px 8px 8px;
+    text-align: left;
+}
+
+tr td:nth-child(2) {
+    text-align: left;
+}
+
+tr td:nth-child(3) {
+    text-align: left;
+}
+
+tr td:nth-child(4) {
+    text-align: center;
+}
+
+
+tbody {
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+#dura {
+    text-align: center;
+}
+
+
+tbody td {
+    padding: 8px 10px;
+}
+
+tbody tr td {
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 15px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+/* Faculty Page */
+
+
+.our-faculty {
+    margin-top: 50px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-box {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.team-box h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    columns: #333333;
+}
+
+.team-box p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #888888;
+}
+
+
+/*////////// About Us Page */
+
+#about-main .events {
+    width: 90%;
+    margin-top: 50px;
+}
+
+#about-main .vision,
+#about-main .about-main-box div h5 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#about-main .vision p,
+#about-main .about-main-box div p {
+    margin: auto;
+}
+
+#about-main .about-main-box div p {
+    border-bottom-color: white;
+}
+
+#about-main .about-main-box {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-main div p:nth-child(3) {
+    margin-top: 25px;
+}
+
+#orange-about-box {
+    padding: 10px;
+    background-color: #fe763a;
+    color: white;
+    margin-bottom: 60px;
+}
+
+#blue-about-box {
+    padding: 10px 15px;
+    background-color: #1e457c;
+    color: white;
+}
+
+.about-main-box div p {
+    margin-top: 10px;
+    color: white;
+    word-spacing: 2px;
+    text-align: justify;
+    line-height: 1.6rem;
+}
+
+
+/* Addmission procedure Page */
+
+
+.add-pro {
+    width: 80%;
+    margin: 50px auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13.68px;
+}
+
+p {
+    margin: 20px auto;
+}
+
+.add-pro ul {
+    margin-left: 50px;
+    list-style-type: circle;
+}
+
+.add-pro ul li {
+    margin-bottom: 10px;
+}
+
+
+/* Online Admission page */
+
+.online-addmission-page a {
+    text-align: center;
+}
+
+.online-addmission-page .events {
+    width: 70%;
+    margin: 40px auto;
+}
+
+.online-addmission-page .events p {
+    margin: initial;
+}
+
+.online-addmission-page .add-pro p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#adm-link {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#adm-link a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 14px 30px 14px 20px;
+    background-color: #ff773a;
+    color: white;
+    border-radius: 5px;
+}
+
+#adm-link a i {
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+/* Responsive Pages */
+
+
+@media(min-width:475px) {
+
+
+    .cont {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 15px;
+    }
+
+    .main-header .logo img {
+        min-width: 150px;
+    }
+
+    .header-content h1 {
+        font-size: 32px;
+    }
+
+    .main-header .header-content .highlight-para {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .addspace {
+        height: 30px;
+    }
+
+    .copyright {
+        padding-top: 1.7rem;
+        font-size: 1rem;
+    }
+
+    footer .logo img {
+        min-width: 140px;
+    }
+
+    .hero-image {
+        height: 15rem;
+        background-position: center;
+        background-size: cover;
+    }
+
+}
+
+@media(min-width:725px) {
+
+    .main-header .logo img {
+        min-width: 200px;
+    }
+
+    .header-content p {
+        margin-bottom: 20px;
+    }
+
+    .header-content h1 {
+        margin-bottom: 20px;
+    }
+
+    .hero-image {
+        height: 25rem;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box,
+    .footer-nav,
+    .footer-content {
+        width: 30%;
+    }
+
+    .footer-nav {
+        margin-top: 20px;
+    }
+
+    .contact-and-map-box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact-form,
+    .map {
+        width: 50%;
+        padding: 20px;
+    }
+
+    .aff-box {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+
+    .why-us {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .why-box-1 {
+        align-self: center;
+    }
+
+    .why-box-2 {
+        margin-left: 30px;
+    }
+
+
+    .welcome-and-events-box {
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin: auto;
+    }
+
+    .events {
+        margin-left: 20px;
+        width: 35%;
+    }
+
+    .welcome {
+        width: 70%;
+    }
+
+    header {
+        min-height: auto;
+    }
+
+    .main-header {
+        display: flex;
+        width: 96%;
+        margin: auto;
+        margin-top: 12px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .main-header .header-content .highlight-para {
+        margin-bottom: 0px;
+    }
+
+    .header-content h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .header-content p {
+        margin-bottom: 10px;
+    }
+
+    .main-header .header-content .highlight-para {
+        font-size: 14px;
+    }
+
+    .header-content {
+        width: 50%;
+    }
+
+    header .top-info {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        position: initial;
+        height: auto;
+        line-height: 1.3rem;
+        align-items: baseline;
+    }
+
+    .social-icons {
+        position: absolute;
+        bottom: auto;
+        width: 20%;
+        right: 8px;
+    }
+
+    .top-info p {
+        margin-right: 25px;
+        padding-top: 5px;
+    }
+
+
+    footer .active {
+        display: initial;
+    }
+
+    footer .toggle-button {
+        display: none;
+    }
+
+    .main-cta {
+        display: flex;
+        align-items: center;
+    }
+
+    .main-cta h2 {
+        font-size: 2rem;
+    }
+
+    .main-cta h4 {
+        font-size: 1.3rem;
+    }
+
+    .main-box-one {
+        width: 75%;
+    }
+
+    .welcome h2 {
+        font-size: 1.4rem;
+    }
+
+    .welcome h1 {
+        font-size: 2.3rem;
+    }
+
+    .welcome p,
+    .why-us p {
+        font-size: 1rem;
+    }
+
+    .footer-content p {
+        font-size: 1rem;
+        letter-spacing: .04rem;
+        word-spacing: 7px;
+        line-height: 1.4rem;
+
+    }
+}
+
+
+@media(min-width: 1020px) {
+
+    #admission-form h2 {
+        text-align: center;
+    }
+
+    .why-box-2 h3 {
+        text-align: center;
+    }
+
+    .copyright {
+        height: max-content;
+    }
+
+    .contact-form h2 {
+        text-align: center;
+    }
+
+    .our-faculty .faculty {
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .add-pro {
+        font-size: 15px;
+    }
+
+    #about-main .about-main-box {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    #orange-about-box,
+    #blue-about-box {
+        width: 48%;
+    }
+
+    #faculty-main {
+        min-height: 500px;
+    }
+
+    .team {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 70%;
+        margin: 70px auto;
+    }
+
+    .team-box {
+        margin-right: 50px;
+    }
+
+
+    main .active {
+        display: initial;
+    }
+
+    main .toggle-button,
+    main .active ul p {
+        display: none;
+    }
+
+    main .nav-links {
+        flex-direction: row;
+        padding: 10px 30px;
+    }
+
+    .social-icons img {
+        width: 35px;
+    }
+
+    main .nav-links li {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        padding: 16px 0px;
+    }
+
+    main .nav-links li a {
+        font-size: 15px;
+        transition: .3 ease all;
+    }
+
+    main .nav-links li a:hover {
+        border-bottom: 1px solid black;
+        background-color: white;
+        color: #1e457c;
+    }
+
+    .map iframe {
+        margin-top: 40px;
+    }
+
+    table th {
+        font-size: 16px;
+    }
+
+    tbody tr td {
+        font-size: 18;
+    }
+}
+
+
+@media(min-width:1200px) {
+    header .top-info {
+        justify-content: center;
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    .social-icons img {
+        width: 34px;
+    }
+
+
+    .main-header .logo {
+        margin-right: 10px;
+        width: 20%;
+    }
+
+    .main-header .header-btns {
+        margin-left: 10px;
+        width: 20%;
+    }
+
+    .social-icons {
+        top: 10px;
+    }
+
+    .main-header {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .main-header .logo img {
+        width: 120px;
+        height: auto;
+    }
+
+    .header-content {
+        width: 56%;
+    }
+
+    .header-content p {
+        margin-top: 30px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .header-content h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .main-header .header-content .highlight-para {
+        font-size: 14px;
+        width: 80%;
+        margin-top: 18px;
+    }
+
+    .main-header a {
+        font-size: 16px;
+    }
+
+    .addspace {
+        height: 25px;
+    }
+
+    /* navbar */
+
+    main .nav-links {
+        width: fit-content;
+    }
+
+    main .nav-links li a {
+        font-size: 16px;
+    }
+
+    .hero-image {
+        height: 500px;
+    }
+
+    .main-cta h4 {
+        font-size: 20px;
+    }
+
+    .main-cta .main-box-one h2 {
+        font-size: 30px;
+    }
+
+    .main-cta a {
+        font-size: 14px;
+    }
+
+    /* floating text */
+
+    .floating-text {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .floating-text marquee {
+        height: 30px;
+        width: 80%;
+        font-size: 15px;
+        padding-top: 5px;
+    }
+
+    /* welocm */
+
+    .welcome-and-events-box {
+        width: 80%;
+        margin: 50px auto;
+    }
+
+    .welcome h2 {
+        font-size: 16px;
+    }
+
+    .welcome h1 {
+        font-size: 40px;
+    }
+
+    .welcome p,
+    .why-us p {
+        font-size: 15px;
+        word-spacing: 8px;
+        line-height: 1.4rem;
+    }
+
+    .events,
+    .why-us {
+        font-size: 25px;
+    }
+
+    .why-us {
+        width: 80%;
+    }
+
+    .why-box-1 img {
+        width: 300px;
+    }
+
+    .aff {
+        font-size: 25px;
+    }
+
+    .aff img {
+        width: 200px;
+    }
+
+    .aff .aff-content {
+        font-size: 20px;
+    }
+
+    /* contact us and map */
+
+
+    .contact-and-map-box {
+        width: 80%;
+        margin: 50px auto;
+    }
+
+    input {
+        height: 2rem;
+        font-size: 16px;
+    }
+
+    .contact-form h2 {
+        font-size: 30px;
+    }
+
+    .contact-form label {
+        font-size: 16px;
+    }
+
+    textarea {
+        font-size: 16px;
+    }
+
+    .contact-form button {
+        font-size: 15px;
+    }
+
+    .map iframe {
+        height: 500px;
+    }
+
+
+
+    .boxes {
+        width: 80%;
+        margin: auto;
+    }
+
+    .box .logo img {
+        width: 150px;
+    }
+
+    .box .contact-info a {
+        font-size: 15px;
+    }
+
+    .footer-content h4,
+    .footer-nav h4 {
+        font-size: 19px;
+    }
+
+    .footer-content p {
+        text-align: justify;
+        font-size: 15px;
+        line-height: 1.5rem;
+    }
+
+    .footer-nav .active li a {
+        font-size: 15px;
+    }
+
+    .copyright {
+        font-size: 16px;
+    }
+
+    .footer-nav {
+        width: 40%;
+    }
+
+    .box {
+        width: 30%;
+    }
+
+    .boxes {
+        justify-content: space-around;
+    }
+}

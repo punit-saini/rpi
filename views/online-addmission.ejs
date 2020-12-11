@@ -1,0 +1,96 @@
+
+      <%- include('partials/header.ejs'); %>
+
+
+        <div class="contact-form" id="admission-form">
+            <h2>Online Admission form</h2>
+            <p class="short-line"></p>
+            <form action="/addmission-form" method="POST">
+
+                 <div class="one-liner">
+                     <div id="study-centre">
+                        <label for="study-centre-name">Name of Study Centre</label>
+                        <input type="text" name="study-centre-name"> 
+                     </div>
+                     <div id="centre-code">
+                        <label for="centre-code">Code</label>
+                        <input type="text" name="centre-code"> 
+                     </div>
+                 </div>
+
+                 <div class="one-liner">
+                     <div id="programme-name">
+                        <label for="programme-name">Programme Applied For</label>
+                        <input type="text" name="programme-name"> 
+                     </div>
+                     <div id="programme-code">
+                        <label for="programme-code">Code</label>
+                        <input type="text" name="programme-code"> 
+                     </div>
+                 </div>
+                 
+                <label for="dob">Date Of Birth</label>
+                <input type="date" name="dob" id="dob">
+
+                <label  for="stu-name">Student's Name</label>
+                <input id="student-name" type="text" name="stu-name">
+
+                <div class="gender-option">
+                   <label for="gender">Gender</label>
+                   <select name="gender" id="gender">
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="other">Other</option>
+                   </select>
+                </div>
+                
+
+                <div class="one-liner">
+                    <div id="father-name">
+                       <label for="father-name">Father's Name</label>
+                       <input type="text" name="father-name"> 
+                    </div>
+                    <div id="mother-name">
+                       <label for="mother-name">Mother's Name</label>
+                       <input type="text" name="mother-name"> 
+                    </div>
+                </div>
+
+                <div class="one-liner">
+                    <div>
+                       <label for="mail">Email</label>
+                       <input type="email" name="mail">
+                    </div>
+                    <div>
+                        <label for="number">Phone</label>
+                        <input type="tel" placeholder="081234 56789" name="number">
+                    </div>
+                </div>
+
+                <div class="address">
+                    <label for="address"> Permanent Address</label>
+                    <div class="add-box">
+                        <div id="address-box">
+                            <input type="text" for="address">
+                            <label for="address-line-one">Address Line 1</label>
+                        </div>
+                        <div id="city-div">
+                            <input type="text" name="city">
+                            <label for="city">City</label>
+                        </div>
+                        <div id="state-div">
+                            <input type="text" name="state">
+                            <label for="state">State / Province / Region</label>
+                        </div>
+                    </div>
+                    
+                 </div>
+
+                 <button type="submit">Submit</button>
+
+            </form>
+        </div>
+
+
+        <%- include('partials/footer.ejs'); %>
+   
